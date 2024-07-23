@@ -1,6 +1,9 @@
 <template>
     <div class="display">
-        
+        <Introduction></Introduction>
+        <Education></Education>
+        <TechnicalSkills></TechnicalSkills>
+        <PersonalSkills></PersonalSkills>
     </div>
 </template>
   
@@ -8,11 +11,14 @@
 
 
 <script>
-// import Something from '@/components/Something.vue'
+import Introduction from '@/components/Introduction.vue'
+import Education from '@/components/Education.vue'
+import TechnicalSkills from '@/components/TechnicalSkills.vue'
+import PersonalSkills from '@/components/PersonalSkills.vue'
 export default {
     name: 'Display',
     components: {
-
+        Introduction, Education, TechnicalSkills, PersonalSkills
     },
     data() {
         return {
@@ -29,8 +35,7 @@ export default {
 <style scoped lang="scss">
     .display {
         width: 55%;
-        
-        height: 900px;
+        padding-top: 100px;
     }
 </style>
   

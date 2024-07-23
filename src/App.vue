@@ -20,4 +20,19 @@ body {
 p {
   margin-bottom: 0px!important;
 }
+
+.regular-text {
+  font-size: 16px;
+  opacity: .6;
+  color: #E2E8F0;
+}
+
+.title-text {
+  font-size: 20px;
+  opacity: 1;
+  color: #E2E8F0;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
 </style>

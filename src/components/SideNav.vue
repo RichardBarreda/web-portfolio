@@ -51,7 +51,7 @@ export default {
     width: 45%;
 
     .side-nav-wrapper {
-        position: sticky;
+        position: fixed;
         margin-top: 100px;
         color: #E2E8F0;
 
@@ -72,6 +72,7 @@ export default {
                 opacity: .6;
                 margin-left: 2px;
                 margin-top: 20px;
+                max-width: 450px;
             }
         }
 
