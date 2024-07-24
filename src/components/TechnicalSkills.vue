@@ -3,7 +3,6 @@
         <p class="title-text">Technical Skills</p>
         
         <div class="skill-wrapper">
-
             <div class="skill-holder" v-for="skill in skills" :key="skill.id">
                 <div class="image-holder">
                     <img class="img-fluid" :src="skill.icon">
@@ -14,7 +13,25 @@
                     <p class="regular-text skill-level">Confidence: {{ skill.level }} </p>
                 </div>
             </div>
+        </div>
 
+        <div class="collapse multi-collapse" id="technicalSkills">
+            <div class="skill-wrapper">
+                <div class="skill-holder" v-for="skill in moreSkills" :key="skill.id">
+                    <div class="image-holder">
+                        <img class="img-fluid" :src="skill.icon">
+                    </div>
+                    <div class="details-holder">
+                        <p class="regular-text skill-title">{{ skill.language }}</p>
+                        <div class="skill-bar"> <div class="confidence-bar" :style="'width:'+skill.level"></div> </div>
+                        <p class="regular-text skill-level">Confidence: {{ skill.level }} </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-wrapper">
+            <a class="btn-more" data-bs-toggle="collapse" data-bs-target="#technicalSkills" aria-expanded="false" aria-controls="multiCollapseExample2" @click="toggleSkills">{{ skillIsOpen ? 'SEE LESS' : 'MORE SKILLS' }}</a>
         </div>
 
     </div>
@@ -39,16 +56,26 @@ export default {
                 {id: "4", language: "SASS", icon: require('../assets/sass.png'), level: "80%"},
                 {id: "5", language: "Bootstrap", icon: require('../assets/bootstrap.png'), level: "80%"},
                 {id: "6", language: "VUE", icon: require('../assets/vue.png'), level: "60%"},
-                {id: "7", language: "REACT", icon: require('../assets/react.png'), level: "20%"},
-                {id: "8", language: "PHP", icon: require('../assets/php.png'), level: "25%"},
-                {id: "9", language: "Wordpress", icon: require('../assets/wp.png'), level: "60%"},
-                {id: "10", language: "LARAVEL", icon: require('../assets/laravel.png'), level: "60%"},
+                {id: "7", language: "Wordpress", icon: require('../assets/wp.png'), level: "60%"},
+                {id: "8", language: "LARAVEL", icon: require('../assets/laravel.png'), level: "60%"},
+            ],
+
+            moreSkills:[
+                {id: "9", language: "REACT", icon: require('../assets/react.png'), level: "20%"},
+                {id: "10", language: "PHP", icon: require('../assets/php.png'), level: "25%"},
                 {id: "11", language: "JAVA", icon: require('../assets/java.png'), level: "20%"},
                 {id: "12", language: "Python", icon: require('../assets/python.png'), level: "20%"},
                 {id: "13", language: "C#", icon: require('../assets/c-sharp.png'), level: "20%"},
                 {id: "14", language: "C++", icon: require('../assets/c-pp.png'), level: "15%"},
                 {id: "15", language: "Github", icon: require('../assets/github.png'), level: "70%"}
-            ]
+            ],
+
+            skillIsOpen: false,
+        }
+    },
+    methods: {
+        toggleSkills() {
+            this.skillIsOpen = !this.skillIsOpen;
         }
     }
 }
@@ -64,6 +91,33 @@ export default {
 
         .regular-text {
 
+        }
+
+        .btn-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            margin-top: 15px;
+        }
+
+        .btn-more {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            color: #E2E8F0;
+
+            border: solid 1px white;
+            border-radius: 3px;
+            width: 100%;
+            max-width: 115px;
+            text-align: center;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #E2E8F0;
+                color: black;
+            }
         }
 
         .skill-wrapper {
