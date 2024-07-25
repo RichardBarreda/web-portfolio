@@ -5,6 +5,7 @@
         <TechnicalSkills></TechnicalSkills>
         <PersonalSkills></PersonalSkills>
         <Experience></Experience>
+        <Projects></Projects>
     </div>
 </template>
   
@@ -17,10 +18,11 @@ import Education from '@/components/Education.vue'
 import TechnicalSkills from '@/components/TechnicalSkills.vue'
 import PersonalSkills from '@/components/PersonalSkills.vue'
 import Experience from '@/components/Experience.vue'
+import Projects from '@/components/Projects.vue'
 export default {
     name: 'Display',
     components: {
-        Introduction, Education, TechnicalSkills, PersonalSkills, Experience
+        Introduction, Education, TechnicalSkills, PersonalSkills, Experience, Projects
     },
     data() {
         return {

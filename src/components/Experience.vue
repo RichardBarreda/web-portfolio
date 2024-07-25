@@ -5,13 +5,13 @@
 
         <div class="company-wrapper">
             <div class="company-header">
-                <p class="company-name">Nanox Philippines Inc</p>
+                <p class="company-name"><i class="bi bi-person-workspace"></i> Nanox Philippines Inc</p>
                 <p class="job-title">IT Support / Web Developer</p>
 
                 <div class="sub-details">
                     <div class="company-details"> <i class="bi bi-calendar-week details-icon"></i> <p class="regular-text">October 2020 - Present</p> </div>
                     <div class="company-details"> <i class="bi bi-geo-alt-fill details-icon"></i> <p class="regular-text">Clark Freeport, Mabalacat, Pampanga</p> </div>
-                    <div class="company-details"> <i class="bi bi-box-arrow-up-right details-icon"></i> <p class="regular-text">https://nanoxphilippines.com/</p> </div>
+                    <div class="company-details"> <i class="bi bi-box-arrow-up-right details-icon"></i> <a href="https://nanoxphilippines.com/" target="_blank" class="regular-text website-link">https://nanoxphilippines.com/</a> </div>
                 </div>
             </div>
 
@@ -26,13 +26,13 @@
 
         <div class="company-wrapper">
             <div class="company-header">
-                <p class="company-name">Fullstack HQ</p>
+                <p class="company-name"><i class="bi bi-person-workspace"></i> Fullstack HQ</p>
                 <p class="job-title">Front-end Web Developer</p>
 
                 <div class="sub-details">
                     <div class="company-details"> <i class="bi bi-calendar-week details-icon"></i> <p class="regular-text">April 2019 - March 2020</p> </div>
                     <div class="company-details"> <i class="bi bi-geo-alt-fill details-icon"></i> <p class="regular-text">Sto. Rosario St. Angeles City, Pampanga</p> </div>
-                    <div class="company-details"> <i class="bi bi-box-arrow-up-right details-icon"></i> <p class="regular-text">https://fullstackhq.com/</p> </div>
+                    <div class="company-details"> <i class="bi bi-box-arrow-up-right details-icon"></i> <a href="https://fullstackhq.com/" target="_blank" class="regular-text website-link">https://fullstackhq.com/</a> </div>
                 </div>
             </div>
 
@@ -44,6 +44,26 @@
             </div>
         </div>
 
+
+        <div class="company-wrapper">
+            <div class="company-header">
+                <p class="company-name"><i class="bi bi-person-workspace"></i> MVP Asia Pacific Inc.</p>
+                <p class="job-title">OJT - Front End Developer</p>
+
+                <div class="sub-details">
+                    <div class="company-details"> <i class="bi bi-calendar-week details-icon"></i> <p class="regular-text">November 2018 - March 2019</p> </div>
+                    <div class="company-details"> <i class="bi bi-geo-alt-fill details-icon"></i> <p class="regular-text">Philexcel Business Park Clark Freeport, Mabalacat, Pampanga</p> </div>
+                    <div class="company-details"> <i class="bi bi-box-arrow-up-right details-icon"></i> <a href="https://www.offshoremvp.com/" target="_blank" class="regular-text website-link">https://www.offshoremvp.com/</a> </div>
+                </div>
+            </div>
+
+            <div class="responsibilities-wrapper">
+                <div class="responsibilities-holder" v-for="job in mvp" :key="job.id">
+                    <i class="bi bi-check2 skill-icon regular-text"></i>
+                    <p class="responsibilities-text regular-text">{{ job.responsibility }}</p>
+                </div>
+            </div>
+        </div>
 
 
     </div>
@@ -83,6 +103,14 @@ export default {
                 {id: "5", responsibility: "Building reusable components and optimized them for maximum performance across a vast array of web-capable devices and browsers."},
                 {id: "6", responsibility: "Uses GitHub to implement version controls with the websites and collaborates with different developers from the team."},
                 {id: "7", responsibility: "Coordinate with QA team and ensure that any website issues or bugs that arise will be fixed immediately."},
+            ],
+
+            mvp: [
+                {id: "1", responsibility: "Attend daily stand up meetings that tackles about the progress of the assigned projects and the different issues / bugs of the website to ensure everyone on the team is updated."},
+                {id: "2", responsibility: "Test the functionalities of different web pages accross different browsers (Chrome, Firefox, Safari & Internet Explorer) and devices such as desktop, laptop, tablets and smartphones."},
+                {id: "3", responsibility: "Troubleshoot and debug different website projects then suggest and help the development team to resolve issues with front-end code, ensuring that web applications and sites function correctly and efficiently."},
+                {id: "4", responsibility: "Review and provide feedback on design and code written by team members to ensure consistency, quality, and best practices."},
+                {id: "5", responsibility: "Continuously learn and stay updated with the latest front-end development trends, technologies, and best practices to ensure the company remains competitive."},
             ]
         }
     }
@@ -102,11 +130,10 @@ export default {
         }
 
         .company-wrapper {
-            padding: 15px;
+            padding: 25px;
             border-radius: 10px;
 
             &:hover {
-                cursor: pointer;
                 background-color: #ffffff17;
             }
 
@@ -114,7 +141,7 @@ export default {
                 .company-name {
                     font-size: 18px;
                     opacity: .8;
-                    color: #E2E8F0;
+                    color: white;
                     font-weight: 500;
                 }
 
@@ -146,6 +173,16 @@ export default {
                             color: #E2E8F0;
                             font-weight: 500;
                             margin-right: 10px;
+                        }
+                    }
+
+                    .website-link {
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                            color: white;
+                            opacity: 1;
                         }
                     }
                 }
