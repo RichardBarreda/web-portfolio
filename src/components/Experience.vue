@@ -123,7 +123,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .experience {
-        padding-bottom: 30px;
+        padding-top: 60px;
 
         .regular-text {
             
@@ -203,6 +203,22 @@ export default {
         }
 
         
+    }
+
+    @media (max-width: 575.98px) {
+        .experience {
+            .company-wrapper {
+                padding: 15px;
+
+                .responsibilities-wrapper {
+                    .responsibilities-holder {
+                        .responsibilities-text {
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
     }
 </style>
   

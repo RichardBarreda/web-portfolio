@@ -87,7 +87,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .technical-skills {
-        padding-bottom: 30px;
+        padding-bottom: 50px;
 
         .regular-text {
 
@@ -159,5 +159,48 @@ export default {
             }
         }
     }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .technical-skills {
+            .skill-wrapper {
+                .skill-holder {
+                    max-width: 215px;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .technical-skills {
+            .skill-wrapper {
+                .skill-holder {
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .technical-skills {
+            .skill-wrapper {
+                .skill-holder {
+                    max-width: 230px;
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .technical-skills {
+            .skill-wrapper {
+                .skill-holder {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
 </style>
   

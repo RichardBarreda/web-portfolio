@@ -6,10 +6,10 @@
                 <p class="my-title">Frontend Developer / IT Specialist</p>
                 <p class="my-background">I Convert design concepts into functional and visually appealing web applications.</p>
             </div>
-            <div class="anchor-holder">
-                <a class="anchor-menu anchor-menu-active"><span class="indicator"></span> ABOUT</a>
-                <a class="anchor-menu"><span class="indicator"></span> EXPERIENCE</a>
-                <a class="anchor-menu"><span class="indicator"></span> PROJECTS</a>
+            <div class="anchor-holder" id="my-display">
+                <a class="anchor-menu" href="#display-about"><span class="indicator"></span> ABOUT</a>
+                <a class="anchor-menu" href="#display-experience"><span class="indicator"></span> EXPERIENCE</a>
+                <a class="anchor-menu" href="#display-project"><span class="indicator"></span> PROJECTS</a>
             </div>
             <div class="links-holder">
                 <a class="social-links"><i class="bi bi-github"></i></a>
@@ -138,6 +138,126 @@ export default {
                 &:hover {
                     cursor: pointer;
                     opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .side-nav {
+        position: relative;
+
+        .side-nav-wrapper {
+            max-width: 400px;
+            padding-left: 30px;
+
+            .info-holder {
+                .my-name {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .side-nav {
+        width: 100%;
+
+        .side-nav-wrapper {
+            position: relative;
+            margin-top: 60px;
+
+            .info-holder {
+                .my-name {
+                    font-size: 40px;
+                }
+                
+                .my-title {
+                    font-size: 18px;
+                }
+
+                .my-background {
+                    margin-top: 10px;
+                }
+
+            }
+
+            .anchor-holder {
+                margin-top: 25px;
+
+                .anchor-menu {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .side-nav {
+        width: 100%;
+
+        .side-nav-wrapper {
+            position: relative;
+            margin-top: 60px;
+
+            .info-holder {
+                .my-name {
+                    font-size: 40px;
+                }
+                
+                .my-title {
+                    font-size: 18px;
+                }
+
+                .my-background {
+                    margin-top: 10px;
+                }
+
+            }
+
+            .anchor-holder {
+                margin-top: 25px;
+
+                .anchor-menu {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .side-nav {
+        width: 100%;
+
+        .side-nav-wrapper {
+            position: relative;
+            margin-top: 40px;
+
+            .info-holder {
+                .my-name {
+                    font-size: 40px;
+                }
+                
+                .my-title {
+                    font-size: 18px;
+                }
+
+                .my-background {
+                    margin-top: 10px;
+                    width: 100%;
+                }
+
+            }
+
+            .anchor-holder {
+                margin-top: 25px;
+
+                .anchor-menu {
+                    font-size: 14px;
                 }
             }
         }

@@ -1,11 +1,11 @@
 <template>
-    <div class="display">
-        <Introduction></Introduction>
+    <div class="display" data-bs-spy="scroll" data-bs-target="#my-display" data-bs-offset="0" data-bs-smooth-scroll="true">
+        <Introduction id="display-about"></Introduction>
         <Education></Education>
         <TechnicalSkills></TechnicalSkills>
         <PersonalSkills></PersonalSkills>
-        <Experience></Experience>
-        <Projects></Projects>
+        <Experience id="display-experience"></Experience>
+        <Projects id="display-project"></Projects>
     </div>
 </template>
   
@@ -39,7 +39,24 @@ export default {
 <style scoped lang="scss">
     .display {
         width: 55%;
-        padding-top: 100px;
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .display {
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .display {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .display {
+            width: 100%;
+        }
     }
 </style>
   

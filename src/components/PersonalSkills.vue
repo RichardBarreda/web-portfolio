@@ -47,7 +47,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .personal-skills {
-        padding-bottom: 50px;
 
         .regular-text {
             font-size: 18px;
@@ -70,6 +69,18 @@ export default {
         }
 
         
+    }
+
+    @media (max-width: 575.98px) {
+        .personal-skills {
+            .skill-wrapper {
+                flex-direction: column;
+
+                .skill-holder {
+                    width: 100%;
+                }
+            }
+        }  
     }
 </style>
   

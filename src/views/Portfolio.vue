@@ -37,5 +37,33 @@ export default {
         display: flex;
     }
 }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .portfolio {
+        .portfolio-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .portfolio {
+        .portfolio-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .portfolio {
+        .portfolio-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
 </style>
   
