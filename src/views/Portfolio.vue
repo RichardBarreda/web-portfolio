@@ -61,6 +61,7 @@ export default {
         .portfolio-wrapper {
             display: flex;
             flex-direction: column;
+            padding: 0px 20px;
         }
     }
 }

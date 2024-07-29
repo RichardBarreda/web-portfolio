@@ -12,11 +12,13 @@
                 <a class="anchor-menu" href="#display-project"><span class="indicator"></span> PROJECTS</a>
             </div>
             <div class="links-holder">
-                <a class="social-links"><i class="bi bi-github"></i></a>
-                <a class="social-links"><i class="bi bi-envelope-at"></i></a>
-                <a class="social-links"><i class="bi bi-facebook"></i></a>
-                <a class="social-links"><i class="bi bi-linkedin"></i></a>
-                <a class="social-links"><i class="bi bi-instagram"></i></a>
+                <a class="social-links" href="https://github.com/RichardBarreda" target="_blank"><i class="bi bi-github"></i></a>
+                <a class="social-links" href="https://www.linkedin.com/in/richard-marck-barreda-654111302/" target="_blank"><i class="bi bi-linkedin"></i></a>               
+                <a class="social-links" href="https://www.facebook.com/chardbarreda/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <span class="divider"></span>
+                <a class="social-links" href="mailto:barredarichardmarck@gmail.com"><i class="bi bi-envelope-at"></i></a>
+                <a class="social-links" href="https://drive.google.com/file/d/1OKBJLv6m4K5Y2eooJZLrRbzPfE7xm4Po/view?usp=sharing" target="_blank"><i class="bi bi-file-earmark-person"></i></a>
+
             </div>
 
             
@@ -112,13 +114,14 @@ export default {
                     }
                 }
 
-                &-active {
-                    font-weight: 700;
-                    opacity: 1;
+            }
 
-                    .indicator {
-                        width: 50px;
-                    }
+            .active {
+                font-weight: 700;
+                opacity: 1;
+
+                .indicator {
+                    width: 60px;
                 }
             }
         }
@@ -139,6 +142,16 @@ export default {
                     cursor: pointer;
                     opacity: 1;
                 }
+            }
+
+            .divider {
+                border-right: solid 2px white;
+                opacity: .5;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                margin-right: 20px;
             }
         }
     }

@@ -1,9 +1,11 @@
 <template>
     <div class="display" data-bs-spy="scroll" data-bs-target="#my-display" data-bs-offset="0" data-bs-smooth-scroll="true">
-        <Introduction id="display-about"></Introduction>
-        <Education></Education>
-        <TechnicalSkills></TechnicalSkills>
-        <PersonalSkills></PersonalSkills>
+        <div class="about-section" id="display-about">
+            <Introduction></Introduction>
+            <Education></Education>
+            <TechnicalSkills></TechnicalSkills>
+            <PersonalSkills></PersonalSkills>
+        </div>
         <Experience id="display-experience"></Experience>
         <Projects id="display-project"></Projects>
     </div>
