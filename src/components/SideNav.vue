@@ -17,7 +17,7 @@
                 <a class="social-links" href="https://www.facebook.com/chardbarreda/" target="_blank"><i class="bi bi-facebook"></i></a>
                 <span class="divider"></span>
                 <a class="social-links" href="mailto:barredarichardmarck@gmail.com"><i class="bi bi-envelope-at"></i></a>
-                <a class="social-links" href="https://drive.google.com/file/d/1OKBJLv6m4K5Y2eooJZLrRbzPfE7xm4Po/view?usp=sharing" target="_blank"><i class="bi bi-file-earmark-person"></i></a>
+                <a class="social-links" href="https://drive.google.com/file/d/1belLbugmVP01Fe05SCATfRj0Q9C5PhKD/view?usp=sharing" target="_blank"><i class="bi bi-file-earmark-person"></i></a>
 
             </div>
 

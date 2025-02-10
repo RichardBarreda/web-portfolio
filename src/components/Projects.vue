@@ -73,7 +73,7 @@ export default {
             ],
 
             moreProjects: [
-                {id: "1", image: require('../assets/party-raffle.png'), name: "Party Raffle System", description:"System I develop to improved the raffle system of Nanox Philippines. Through this simple system we can promote paperless lifestyle!", link: "https://github.com/Nanox-Marc/NPRS", language:["HTML", "CSS", "SCSS", "JS"]},
+                {id: "1", image: require('../assets/party-raffle.png'), name: "Party Raffle System", description:"System I develop to improved the raffle system of Nanox Philippines. Through this simple system we can promote paperless lifestyle!", link: "https://nanox-marc.github.io/automated-raffle/", language:["HTML", "CSS", "SCSS", "JS"]},
                 {id: "2", image: require('../assets/cps-system.png'), name: "Cashless Payment System", description:"A discontinued project. System that accepts payment through RFID Card to lessen the physical contact of employees on money during covid 19 pandemic.", link: "https://github.com/Nanox-Marc/CPS", language:["HTML", "CSS", "SCSS", "JS", "Laravel"]},
             ],
 
