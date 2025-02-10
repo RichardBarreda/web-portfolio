@@ -4,7 +4,7 @@
 
         <p class="regular-text">
             Hi there! I’m <span class="my-name">Richard Marck Barreda</span>, an IT Support and a Front-end web developer with a passion 
-            for creating engaging and user-friendly web interfaces. I have approximately 3 years of experience 
+            for creating engaging and user-friendly web interfaces. I have 2+ years of experience 
             in front-end development, utilizing technologies like HTML, CSS, JavaScript, and front-end 
             frameworks such as Bootstrap, Jquery, and Vue JS.  I have honed my skills in building responsive 
             and visually appealing websites to provide an excellent user experience.
