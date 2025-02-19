@@ -13,7 +13,7 @@
             </div>
             <div class="links-holder">
                 <a class="social-links" href="https://github.com/RichardBarreda" target="_blank"><i class="bi bi-github"></i></a>
-                <a class="social-links" href="https://www.linkedin.com/in/richard-marck-barreda-654111302/" target="_blank"><i class="bi bi-linkedin"></i></a>               
+                <a class="social-links" href="https://www.linkedin.com/in/richard-marck-barreda" target="_blank"><i class="bi bi-linkedin"></i></a>               
                 <a class="social-links" href="https://www.facebook.com/chardbarreda/" target="_blank"><i class="bi bi-facebook"></i></a>
                 <span class="divider"></span>
                 <a class="social-links" href="mailto:barredarichardmarck@gmail.com"><i class="bi bi-envelope-at"></i></a>
