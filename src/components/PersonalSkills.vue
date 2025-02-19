@@ -25,16 +25,16 @@ export default {
     data() {
         return {
             skills: [
-                {id: "1", name: "Time Management"},
-                {id: "2", name: "Creativity"},
-                {id: "3", name: "Analytical Skills"},
-                {id: "4", name: "Communication"},
-                {id: "5", name: "Teamwork"},
-                {id: "6", name: "Organizational Skills"},
-                {id: "7", name: "Flexible"},
-                {id: "8", name: "Problem Solving"},
-                {id: "9", name: "Leadership"},
-                {id: "10", name: "Technical Writing"},
+                {id: "1", name: "Communication"},
+                {id: "2", name: "Problem-Solving"},
+                {id: "3", name: "Customer Service"},
+                {id: "4", name: "Adaptability"},
+                {id: "5", name: "Analysis"},
+                {id: "6", name: "Creativity"},
+                {id: "7", name: "Leadership"},
+                {id: "8", name: "Teamwork"},
+                {id: "9", name: "Decision-Making"},
+                {id: "10", name: "Time Management"},
             ]
         }
     }

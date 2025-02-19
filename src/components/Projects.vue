@@ -2,7 +2,7 @@
     <div class="projects">
         <p class="title-text">Sample Projects</p>
         <p class="regular-text">
-            With my 3 years of experience as a Web Developer, I already worked with lots of front-end development 
+            With my 2 years of experience as a Web Developer, I already worked with lots of front-end development 
             projects, but unfortunately I cannot disclose any information regarding my previous website projects 
             due to the Confidentiality Agreement with my previous employers and with the copyright / code ownership. 
             I can't publicly share the code without the client's permission. But to give an idea, I think I've already 
