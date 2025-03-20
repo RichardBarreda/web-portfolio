@@ -67,9 +67,10 @@ export default {
     data() {
         return {
             projects: [
-                {id: "1", image: require('../assets/nanox-website.png'), name: "Nanox Philippines Inc", description:"Company website for Nanox Philippines Inc. Featuring the products and services they offer.", link: "https://richardbarreda.github.io/Nanox/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Javascript"]},
-                {id: "2", image: require('../assets/ticketing-system.png'), name: "Sample Ticketing System", description:"Sample Front-end concept for an IT Department Ticketing System. Inspired with the one I develop for Nanox Philippines Inc", link: "https://richardbarreda.github.io/ticketing-system/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Vue JS"]},
-                {id: "3", image: require('../assets/online-portfolio.png'), name: "My First Web Portfolio", description:"I created this web portfolio as a practice when I am studying Vue JS. You might also want to check this out!", link: "https://richardbarreda.github.io/my-portfolio/", language:["HTML", "CSS", "Bootstrap", "Vue JS"]},
+                {id: "1", image: require('../assets/nanox-website.png'), name: "Nanox Philippines Inc", description:"Company website for Nanox Philippines Inc. Featuring the products and services they offer.", link: "https://nanoxphilippines.com/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Javascript"]},
+                {id: "2", image: require('../assets/techshop-website.png'), name: "Sample E-Commerce Website", description:"Sample Front-end concept for an E-Commerce Website.", link: "https://richardbarreda.github.io/techshop/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Javascript"]},
+                {id: "3", image: require('../assets/ticketing-system.png'), name: "Sample Ticketing System", description:"Sample Front-end concept for an IT Department Ticketing System. Inspired with the one I develop for Nanox Philippines Inc", link: "https://richardbarreda.github.io/ticketing-system/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Vue JS"]},
+                {id: "4", image: require('../assets/online-portfolio.png'), name: "My First Web Portfolio", description:"I created this web portfolio as a practice when I am studying Vue JS. You might also want to check this out!", link: "https://richardbarreda.github.io/my-portfolio/", language:["HTML", "CSS", "Bootstrap", "Vue JS"]},
             ],
 
             moreProjects: [

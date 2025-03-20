@@ -32,7 +32,7 @@
                 <div class="details-holder">
                     <p class="regular-text education-title">PRIMARY EDUCATION</p>
                     <p class="regular-text education-school">Villa Teodora Elementary School</p>
-                    <p class="regular-text education-year">June 2005 - May 2011</p>
+                    <p class="regular-text education-year">June 2005 - March 2011</p>
                 </div>
             </div>
         </div>
