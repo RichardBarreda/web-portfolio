@@ -2,7 +2,7 @@
     <div class="projects">
         <p class="title-text">Sample Projects</p>
         <p class="regular-text">
-            With my 2 years of experience as a Web Developer, I already worked with lots of front-end development 
+            With my more than 2 years of experience as a Web Developer, I already worked with lots of front-end development 
             projects, but unfortunately I cannot disclose any information regarding my previous website projects 
             due to the Confidentiality Agreement with my previous employers and with the copyright / code ownership. 
             I can't publicly share the code without the client's permission. But to give an idea, I think I've already 
@@ -68,9 +68,10 @@ export default {
         return {
             projects: [
                 {id: "1", image: require('../assets/nanox-website.png'), name: "Nanox Philippines Inc", description:"Company website for Nanox Philippines Inc. Featuring the products and services they offer.", link: "https://nanoxphilippines.com/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Javascript"]},
-                {id: "2", image: require('../assets/techshop-website.png'), name: "Sample E-Commerce Website", description:"Sample Front-end concept for an E-Commerce Website.", link: "https://richardbarreda.github.io/techshop/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Javascript"]},
-                {id: "3", image: require('../assets/ticketing-system.png'), name: "Sample Ticketing System", description:"Sample Front-end concept for an IT Department Ticketing System. Inspired with the one I develop for Nanox Philippines Inc", link: "https://richardbarreda.github.io/ticketing-system/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Vue JS"]},
-                {id: "4", image: require('../assets/online-portfolio.png'), name: "My First Web Portfolio", description:"I created this web portfolio as a practice when I am studying Vue JS. You might also want to check this out!", link: "https://richardbarreda.github.io/my-portfolio/", language:["HTML", "CSS", "Bootstrap", "Vue JS"]},
+                {id: "2", image: require('../assets/accesspoint-system.png'), name: "AccessPoint - Ticketing System", description:"Sample ticketing system I created using Django web framework for python.", link: "https://github.com/RichardBarreda/django-ticketing-system", language:["Django", "HTML", "CSS", "SCSS", "Bootstrap"]},
+                {id: "3", image: require('../assets/techshop-website.png'), name: "Sample E-Commerce Website", description:"Sample Front-end concept for an E-Commerce Website.", link: "https://richardbarreda.github.io/techshop/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Javascript"]},
+                {id: "4", image: require('../assets/ticketing-system.png'), name: "Sample Ticketing System", description:"Sample Front-end concept for an IT Department Ticketing System. Inspired with the one I develop for Nanox Philippines Inc", link: "https://richardbarreda.github.io/ticketing-system/", language:["HTML", "CSS", "SCSS", "Bootstrap", "Vue JS"]},
+                {id: "5", image: require('../assets/online-portfolio.png'), name: "My First Web Portfolio", description:"I created this web portfolio as a practice when I am studying Vue JS. You might also want to check this out!", link: "https://richardbarreda.github.io/my-portfolio/", language:["HTML", "CSS", "Bootstrap", "Vue JS"]},
             ],
 
             moreProjects: [

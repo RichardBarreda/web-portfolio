@@ -53,14 +53,15 @@ export default {
                 {id: "1", language: "HTML", icon: require('../assets/html.png'), level: "90%"},
                 {id: "2", language: "CSS", icon: require('../assets/css-3.png'), level: "90%"},
                 {id: "3", language: "Javascript", icon: require('../assets/js.png'), level: "70%"},
-                {id: "12", language: "Python", icon: require('../assets/python.png'), level: "70%"},
                 {id: "4", language: "SASS", icon: require('../assets/sass.png'), level: "80%"},
                 {id: "5", language: "Bootstrap", icon: require('../assets/bootstrap.png'), level: "80%"},
-                {id: "7", language: "Wordpress", icon: require('../assets/wp.png'), level: "60%"},
+                {id: "12", language: "Python", icon: require('../assets/python.png'), level: "70%"},
+                {id: "16", language: "Django", icon: require('../assets/dj.png'), level: "70%"},
                 {id: "8", language: "LARAVEL", icon: require('../assets/laravel.png'), level: "60%"},
             ],
             
             moreSkills:[
+                {id: "7", language: "Wordpress", icon: require('../assets/wp.png'), level: "60%"},
                 {id: "6", language: "VUE", icon: require('../assets/vue.png'), level: "60%"},
                 {id: "9", language: "REACT", icon: require('../assets/react.png'), level: "20%"},
                 {id: "10", language: "PHP", icon: require('../assets/php.png'), level: "25%"},

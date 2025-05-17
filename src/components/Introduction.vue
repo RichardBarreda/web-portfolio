@@ -3,19 +3,12 @@
         <p class="title-text">About Me</p>
 
         <p class="regular-text">
-            Hi there! I’m <span class="my-name">Richard Marck Barreda</span>, an IT Support and a Front-end web developer with a passion 
-            for creating engaging and user-friendly web interfaces. I have 2+ years of experience 
-            in front-end development, utilizing technologies like HTML, CSS, JavaScript, and front-end 
-            frameworks such as Bootstrap, Jquery, and Vue JS.  I have honed my skills in building responsive 
-            and visually appealing websites to provide an excellent user experience.
-        </p>
-
-        <p class="regular-text">
-            Recently, I have embarked on a journey to expand my expertise into back-end development. I’m currently 
-            learning PHP and one of its frameworks - Laravel, as well as studying and working with databases using 
-            SQL (although I prefer to use Laravel’s Eloquent because it makes the development faster and more 
-            efficient). This new knowledge is enabling me to understand the full stack of web development and 
-            create more comprehensive and efficient solutions.
+            Hi there! I’m <span class="my-name">Richard Marck Barreda</span>, an IT Support and web developer. 
+            In front-end development, I specialize in creating engaging and user-friendly web interfaces using 
+            technologies like HTML, CSS, JavaScript, and frameworks such as Bootstrap, Jquery, and Vue JS. 
+            I excel at building responsive and visually appealing websites to ensure an excellent user experience.
+            In back-end development, I have experience creating robust and efficient web systems using Laravel and Django, 
+            leveraging these powerful frameworks to deliver dynamic and seamless web applications that complement my front-end expertise.
         </p>
 
         <p class="regular-text">

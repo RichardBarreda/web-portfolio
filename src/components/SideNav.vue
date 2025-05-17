@@ -3,7 +3,7 @@
         <div class="side-nav-wrapper">
             <div class="info-holder">
                 <p class="my-name">Richard Barreda</p>
-                <p class="my-title">Frontend Developer / IT Specialist</p>
+                <p class="my-title">Web Developer / IT Support Specialist</p>
                 <p class="my-background">I Convert design concepts into functional and visually appealing web applications.</p>
             </div>
             <div class="anchor-holder" id="my-display">

@@ -9,7 +9,7 @@
                 <p class="job-title">IT Support / Web Developer</p>
 
                 <div class="sub-details">
-                    <div class="company-details"> <i class="bi bi-calendar-week details-icon"></i> <p class="regular-text">October 2020 - Present</p> </div>
+                    <div class="company-details"> <i class="bi bi-calendar-week details-icon"></i> <p class="regular-text">October 2020 - May 2025</p> </div>
                     <div class="company-details"> <i class="bi bi-geo-alt-fill details-icon"></i> <p class="regular-text">Clark Freeport, Mabalacat, Pampanga</p> </div>
                     <div class="company-details"> <i class="bi bi-box-arrow-up-right details-icon"></i> <a href="https://nanoxphilippines.com/" target="_blank" class="regular-text website-link">https://nanoxphilippines.com/</a> </div>
                 </div>
